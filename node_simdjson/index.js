@@ -20,3 +20,6 @@ for ( let i = 0 ; i < 1000; i++ ){
     var parsedJSON = simdjson.parse(jsonString); 
 }
 console.timeEnd("simdjson")
+
+// node 13.2 native json: 34.216ms
+// simdjson: 120.714ms
